@@ -62,7 +62,6 @@ propagate!
 function propagate!(orbp::OrbitPropagator{T}, t::AbstractVector) where T
     # Output.
     num_elems  = length(t)
-    result_orb = Vector{KeplerianElements{T}}(undef, num_elems)
     result_r   = Vector{SVector{3,T}}(undef, num_elems)
     result_v   = Vector{SVector{3,T}}(undef, num_elems)
 
