@@ -31,7 +31,7 @@ get_epoch
     get_mean_elements(orbp)
 
 Return the mean elements of the latest propagation performed by `orbp`. This is
-an optinal function in the API. It will return `nothing` if the propagator does
+an optional function in the API. It will return `nothing` if the propagator does
 not support it.
 
 """
